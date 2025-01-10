@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		221334372D2FB5AA00582A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334312D2FB5AA00582A60 /* Preview Assets.xcassets */; };
+		221334382D2FB5AA00582A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334332D2FB5AA00582A60 /* Assets.xcassets */; };
+		221334392D2FB5AA00582A60 /* AllianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334342D2FB5AA00582A60 /* AllianView.swift */; };
+		2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334352D2FB5AA00582A60 /* HoMMPediaApp.swift */; };
+		221334442D2FC63300582A60 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334432D2FC63300582A60 /* FileService.swift */; };
+		221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334462D2FCAED00582A60 /* AllianViewModel.swift */; };
+		221334492D2FD0BE00582A60 /* AllianModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334482D2FD0B800582A60 /* AllianModel.swift */; };
+		2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213344A2D30D44500582A60 /* BackgroundView.swift */; };
+		2225EBFF2D30EDFA00B21B30 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2225EBFE2D30EDFA00B21B30 /* Localizable.xcstrings */; };
+		2225EC022D31237600B21B30 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 2225EC012D31237600B21B30 /* SwiftfulRouting */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		221334152D2FB5A200582A60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +40,18 @@
 		221334042D2FB5A000582A60 /* HoMMPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoMMPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221334142D2FB5A200582A60 /* HoMMPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoMMPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2213341E2D2FB5A200582A60 /* HoMMPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoMMPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		221334312D2FB5AA00582A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		221334332D2FB5AA00582A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		221334342D2FB5AA00582A60 /* AllianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianView.swift; sourceTree = "<group>"; };
+		221334352D2FB5AA00582A60 /* HoMMPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoMMPediaApp.swift; sourceTree = "<group>"; };
+		221334432D2FC63300582A60 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		221334462D2FCAED00582A60 /* AllianViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianViewModel.swift; sourceTree = "<group>"; };
+		221334482D2FD0B800582A60 /* AllianModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianModel.swift; sourceTree = "<group>"; };
+		2213344A2D30D44500582A60 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		2225EBFE2D30EDFA00B21B30 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		221334062D2FB5A000582A60 /* HoMMPedia */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HoMMPedia;
-			sourceTree = "<group>";
-		};
 		221334172D2FB5A200582A60 /* HoMMPediaTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = HoMMPediaTests;
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2225EC022D31237600B21B30 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +93,7 @@
 		221333FB2D2FB5A000582A60 = {
 			isa = PBXGroup;
 			children = (
-				221334062D2FB5A000582A60 /* HoMMPedia */,
+				221334362D2FB5AA00582A60 /* HoMMPedia */,
 				221334172D2FB5A200582A60 /* HoMMPediaTests */,
 				221334212D2FB5A200582A60 /* HoMMPediaUITests */,
 				221334052D2FB5A000582A60 /* Products */,
@@ -90,6 +108,78 @@
 				2213341E2D2FB5A200582A60 /* HoMMPediaUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		221334322D2FB5AA00582A60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				221334312D2FB5AA00582A60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		221334362D2FB5AA00582A60 /* HoMMPedia */ = {
+			isa = PBXGroup;
+			children = (
+				2213343B2D2FB5B200582A60 /* Core */,
+				2213343C2D2FB5BD00582A60 /* M */,
+				2213343E2D2FB5D100582A60 /* VM */,
+				2213343D2D2FB5C800582A60 /* V */,
+				221334322D2FB5AA00582A60 /* Preview Content */,
+				221334352D2FB5AA00582A60 /* HoMMPediaApp.swift */,
+				221334332D2FB5AA00582A60 /* Assets.xcassets */,
+				2225EBFE2D30EDFA00B21B30 /* Localizable.xcstrings */,
+			);
+			path = HoMMPedia;
+			sourceTree = "<group>";
+		};
+		2213343B2D2FB5B200582A60 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2213343F2D2FB62600582A60 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2213343C2D2FB5BD00582A60 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				221334482D2FD0B800582A60 /* AllianModel.swift */,
+				221334422D2FC61A00582A60 /* Local */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		2213343D2D2FB5C800582A60 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				221334342D2FB5AA00582A60 /* AllianView.swift */,
+				2213344A2D30D44500582A60 /* BackgroundView.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		2213343E2D2FB5D100582A60 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				221334462D2FCAED00582A60 /* AllianViewModel.swift */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		2213343F2D2FB62600582A60 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		221334422D2FC61A00582A60 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				221334432D2FC63300582A60 /* FileService.swift */,
+			);
+			path = Local;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +197,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				221334062D2FB5A000582A60 /* HoMMPedia */,
-			);
 			name = HoMMPedia;
 			packageProductDependencies = (
+				2225EC012D31237600B21B30 /* SwiftfulRouting */,
 			);
 			productName = HoMMPedia;
 			productReference = 221334042D2FB5A000582A60 /* HoMMPedia.app */;
@@ -192,9 +280,13 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 221333FB2D2FB5A000582A60;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2225EC002D31237600B21B30 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 221334052D2FB5A000582A60 /* Products */;
 			projectDirPath = "";
@@ -212,6 +304,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221334372D2FB5AA00582A60 /* Preview Assets.xcassets in Resources */,
+				221334382D2FB5AA00582A60 /* Assets.xcassets in Resources */,
+				2225EBFF2D30EDFA00B21B30 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */,
+				221334392D2FB5AA00582A60 /* AllianView.swift in Sources */,
+				221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */,
+				221334492D2FD0BE00582A60 /* AllianModel.swift in Sources */,
+				2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */,
+				221334442D2FC63300582A60 /* FileService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +429,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +486,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -412,6 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.matrixthoughts.HoMMPedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,6 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.matrixthoughts.HoMMPedia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -558,6 +663,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2225EC002D31237600B21B30 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2225EC012D31237600B21B30 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2225EC002D31237600B21B30 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 221333FC2D2FB5A000582A60 /* Project object */;
 }
