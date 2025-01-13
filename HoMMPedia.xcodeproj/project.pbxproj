@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		221334372D2FB5AA00582A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334312D2FB5AA00582A60 /* Preview Assets.xcassets */; };
 		221334382D2FB5AA00582A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334332D2FB5AA00582A60 /* Assets.xcassets */; };
-		221334392D2FB5AA00582A60 /* AllianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334342D2FB5AA00582A60 /* AllianView.swift */; };
+		221334392D2FB5AA00582A60 /* AllianScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334342D2FB5AA00582A60 /* AllianScreen.swift */; };
 		2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334352D2FB5AA00582A60 /* HoMMPediaApp.swift */; };
 		221334442D2FC63300582A60 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334432D2FC63300582A60 /* FileService.swift */; };
 		221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334462D2FCAED00582A60 /* AllianViewModel.swift */; };
@@ -17,6 +17,13 @@
 		2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213344A2D30D44500582A60 /* BackgroundView.swift */; };
 		2225EBFF2D30EDFA00B21B30 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2225EBFE2D30EDFA00B21B30 /* Localizable.xcstrings */; };
 		2225EC022D31237600B21B30 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 2225EC012D31237600B21B30 /* SwiftfulRouting */; };
+		2225EC042D31C3A000B21B30 /* CreatureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC032D31C3A000B21B30 /* CreatureScreen.swift */; };
+		2225EC072D325B8B00B21B30 /* CacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC062D325B8B00B21B30 /* CacheKey.swift */; };
+		2225EC252D33105B00B21B30 /* GifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC242D33105B00B21B30 /* GifImageView.swift */; };
+		2225EC2C2D33B77D00B21B30 /* CreatureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC2B2D33B77D00B21B30 /* CreatureModel.swift */; };
+		2225EC2E2D34C19100B21B30 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */; };
+		2225EC302D34D1E900B21B30 /* CreatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */; };
+		2225EC352D34F44500B21B30 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2225EC342D34F44500B21B30 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +49,19 @@
 		2213341E2D2FB5A200582A60 /* HoMMPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoMMPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221334312D2FB5AA00582A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		221334332D2FB5AA00582A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		221334342D2FB5AA00582A60 /* AllianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianView.swift; sourceTree = "<group>"; };
+		221334342D2FB5AA00582A60 /* AllianScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianScreen.swift; sourceTree = "<group>"; };
 		221334352D2FB5AA00582A60 /* HoMMPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoMMPediaApp.swift; sourceTree = "<group>"; };
 		221334432D2FC63300582A60 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 		221334462D2FCAED00582A60 /* AllianViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianViewModel.swift; sourceTree = "<group>"; };
 		221334482D2FD0B800582A60 /* AllianModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllianModel.swift; sourceTree = "<group>"; };
 		2213344A2D30D44500582A60 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		2225EBFE2D30EDFA00B21B30 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		2225EC032D31C3A000B21B30 /* CreatureScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureScreen.swift; sourceTree = "<group>"; };
+		2225EC062D325B8B00B21B30 /* CacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheKey.swift; sourceTree = "<group>"; };
+		2225EC242D33105B00B21B30 /* GifImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImageView.swift; sourceTree = "<group>"; };
+		2225EC2B2D33B77D00B21B30 /* CreatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureModel.swift; sourceTree = "<group>"; };
+		2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2225EC352D34F44500B21B30 /* SDWebImageSwiftUI in Frameworks */,
 				2225EC022D31237600B21B30 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				2213343F2D2FB62600582A60 /* Extension */,
+				2225EC062D325B8B00B21B30 /* CacheKey.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -144,8 +159,9 @@
 		2213343C2D2FB5BD00582A60 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				221334482D2FD0B800582A60 /* AllianModel.swift */,
 				221334422D2FC61A00582A60 /* Local */,
+				221334482D2FD0B800582A60 /* AllianModel.swift */,
+				2225EC2B2D33B77D00B21B30 /* CreatureModel.swift */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -153,8 +169,9 @@
 		2213343D2D2FB5C800582A60 /* V */ = {
 			isa = PBXGroup;
 			children = (
-				221334342D2FB5AA00582A60 /* AllianView.swift */,
-				2213344A2D30D44500582A60 /* BackgroundView.swift */,
+				2225EC0B2D330DE800B21B30 /* Common Widgets */,
+				221334342D2FB5AA00582A60 /* AllianScreen.swift */,
+				2225EC032D31C3A000B21B30 /* CreatureScreen.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -162,7 +179,9 @@
 		2213343E2D2FB5D100582A60 /* VM */ = {
 			isa = PBXGroup;
 			children = (
+				2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */,
 				221334462D2FCAED00582A60 /* AllianViewModel.swift */,
+				2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */,
 			);
 			path = VM;
 			sourceTree = "<group>";
@@ -180,6 +199,15 @@
 				221334432D2FC63300582A60 /* FileService.swift */,
 			);
 			path = Local;
+			sourceTree = "<group>";
+		};
+		2225EC0B2D330DE800B21B30 /* Common Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				2213344A2D30D44500582A60 /* BackgroundView.swift */,
+				2225EC242D33105B00B21B30 /* GifImageView.swift */,
+			);
+			path = "Common Widgets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +228,7 @@
 			name = HoMMPedia;
 			packageProductDependencies = (
 				2225EC012D31237600B21B30 /* SwiftfulRouting */,
+				2225EC342D34F44500B21B30 /* SDWebImageSwiftUI */,
 			);
 			productName = HoMMPedia;
 			productReference = 221334042D2FB5A000582A60 /* HoMMPedia.app */;
@@ -286,6 +315,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2225EC002D31237600B21B30 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				2225EC332D34F44500B21B30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 221334052D2FB5A000582A60 /* Products */;
@@ -331,11 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2225EC252D33105B00B21B30 /* GifImageView.swift in Sources */,
+				2225EC2E2D34C19100B21B30 /* BaseViewModel.swift in Sources */,
 				2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */,
-				221334392D2FB5AA00582A60 /* AllianView.swift in Sources */,
+				221334392D2FB5AA00582A60 /* AllianScreen.swift in Sources */,
 				221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */,
+				2225EC302D34D1E900B21B30 /* CreatureViewModel.swift in Sources */,
+				2225EC042D31C3A000B21B30 /* CreatureScreen.swift in Sources */,
 				221334492D2FD0BE00582A60 /* AllianModel.swift in Sources */,
 				2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */,
+				2225EC072D325B8B00B21B30 /* CacheKey.swift in Sources */,
+				2225EC2C2D33B77D00B21B30 /* CreatureModel.swift in Sources */,
 				221334442D2FC63300582A60 /* FileService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,6 +709,14 @@
 				minimumVersion = 5.3.6;
 			};
 		};
+		2225EC332D34F44500B21B30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -680,6 +724,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2225EC002D31237600B21B30 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
 			productName = SwiftfulRouting;
+		};
+		2225EC342D34F44500B21B30 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2225EC332D34F44500B21B30 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

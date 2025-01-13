@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "%@" : {
+
+    },
     "Choose Allian" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -17,6 +20,9 @@
           }
         }
       }
+    },
+    "Go back" : {
+
     }
   },
   "version" : "1.0"

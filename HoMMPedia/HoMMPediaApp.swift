@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftfulRouting
 
 private struct MainWindowSizeKey: EnvironmentKey {
     static let defaultValue: CGSize = .zero
@@ -20,11 +21,16 @@ extension EnvironmentValues {
 
 @main
 struct HoMMPediaApp: App {
+    @AppStorage(CacheKey.currentLanguage.rawValue) var selectedLanguageCode = "en"
+    
     var body: some Scene {
         WindowGroup {
             GeometryReader { proxy in
-                AllianView()
-                    .environment(\.mainWindowSize, proxy.size)
+                RouterView { _ in
+                    AllianScreen()
+                        .environment(\.mainWindowSize, proxy.size)
+                        .environment(\.locale, .init(identifier: selectedLanguageCode))
+                }
             }
         }
     }
