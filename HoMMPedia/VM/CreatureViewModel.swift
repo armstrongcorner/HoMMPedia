@@ -15,6 +15,8 @@ protocol CreatureViewModelProtocol {
     var creatures: [Creature] { get }
     
     func getCreatures(allian: String) async
+    func getCurrentCreature(name: String) -> Creature?
+    func getCurrentCreature(grade: String) -> Creature?
     func getCreatureGifs(grade: String) -> [String]
 }
 
@@ -44,6 +46,22 @@ final class CreatureViewModel: BaseViewModel, CreatureViewModelProtocol {
             self.creatures = creatureModel.creatures
             print("\(allian) total creatures: \(creatures.count)")
         }
+    }
+    
+    func getCurrentCreature(name: String) -> Creature? {
+        if creatures.count > 0 {
+            return creatures.first { $0.name == name }
+        }
+        
+        return nil
+    }
+    
+    func getCurrentCreature(grade: String) -> Creature? {
+        if creatures.count > 0 {
+            return creatures.first { $0.grade == grade }
+        }
+        
+        return nil
     }
     
     func getCreatureGifs(grade: String) -> [String] {

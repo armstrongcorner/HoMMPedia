@@ -58,6 +58,7 @@ struct AllianScreen: View {
                             .onTapGesture {
                                 router.showScreen(.push) { _ in
                                     CreatureScreen(allianName: allian.name)
+                                        .environment(\.locale, locale)
                                 }
                             }
                         }
@@ -79,7 +80,7 @@ struct AllianScreen: View {
         RouterView { _ in
             AllianScreen()
                 .environment(\.mainWindowSize, proxy.size)
-                .environment(\.locale, .init(identifier: "en"))
+                .environment(\.locale, .init(identifier: "zh"))
         }
     }
 }

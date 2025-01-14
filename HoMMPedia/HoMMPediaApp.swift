@@ -21,7 +21,7 @@ extension EnvironmentValues {
 
 @main
 struct HoMMPediaApp: App {
-    @AppStorage(CacheKey.currentLanguage.rawValue) var selectedLanguageCode = "en"
+    @AppStorage(CacheKey.currentLanguage.rawValue) var selectedLanguageCode = "zh"
     
     var body: some Scene {
         WindowGroup {

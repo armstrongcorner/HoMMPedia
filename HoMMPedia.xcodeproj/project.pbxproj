@@ -24,6 +24,8 @@
 		2225EC2E2D34C19100B21B30 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */; };
 		2225EC302D34D1E900B21B30 /* CreatureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */; };
 		2225EC352D34F44500B21B30 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2225EC342D34F44500B21B30 /* SDWebImageSwiftUI */; };
+		2225EC3D2D35F67D00B21B30 /* CreatureAttrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC3C2D35F67D00B21B30 /* CreatureAttrView.swift */; };
+		2225EC3F2D3667F700B21B30 /* CreatureIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2225EC3E2D3667F700B21B30 /* CreatureIntroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		2225EC2B2D33B77D00B21B30 /* CreatureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureModel.swift; sourceTree = "<group>"; };
 		2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureViewModel.swift; sourceTree = "<group>"; };
+		2225EC3C2D35F67D00B21B30 /* CreatureAttrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureAttrView.swift; sourceTree = "<group>"; };
+		2225EC3E2D3667F700B21B30 /* CreatureIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureIntroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -172,6 +176,8 @@
 				2225EC0B2D330DE800B21B30 /* Common Widgets */,
 				221334342D2FB5AA00582A60 /* AllianScreen.swift */,
 				2225EC032D31C3A000B21B30 /* CreatureScreen.swift */,
+				2225EC3C2D35F67D00B21B30 /* CreatureAttrView.swift */,
+				2225EC3E2D3667F700B21B30 /* CreatureIntroView.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -363,11 +369,13 @@
 			files = (
 				2225EC252D33105B00B21B30 /* GifImageView.swift in Sources */,
 				2225EC2E2D34C19100B21B30 /* BaseViewModel.swift in Sources */,
+				2225EC3F2D3667F700B21B30 /* CreatureIntroView.swift in Sources */,
 				2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */,
 				221334392D2FB5AA00582A60 /* AllianScreen.swift in Sources */,
 				221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */,
 				2225EC302D34D1E900B21B30 /* CreatureViewModel.swift in Sources */,
 				2225EC042D31C3A000B21B30 /* CreatureScreen.swift in Sources */,
+				2225EC3D2D35F67D00B21B30 /* CreatureAttrView.swift in Sources */,
 				221334492D2FD0BE00582A60 /* AllianModel.swift in Sources */,
 				2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */,
 				2225EC072D325B8B00B21B30 /* CacheKey.swift in Sources */,

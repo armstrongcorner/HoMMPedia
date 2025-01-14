@@ -19,7 +19,7 @@ struct Creature:Identifiable, Codable, Sendable {
     let skills: String
     let skillsCn: String
     let image: String
-    let attrs: Attrs
+    let creatureAttrs: CreatureAttrs
     
     enum CodingKeys: String, CodingKey {
         case id = "id"
@@ -31,11 +31,11 @@ struct Creature:Identifiable, Codable, Sendable {
         case skills = "skills"
         case skillsCn = "skills_cn"
         case image = "image"
-        case attrs = "attrs"
+        case creatureAttrs = "attrs"
     }
 }
 
-struct Attrs: Codable, Sendable {
+struct CreatureAttrs: Codable, Sendable {
     let health: String
     let attack: String
     let defence: String

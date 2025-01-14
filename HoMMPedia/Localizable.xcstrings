@@ -4,6 +4,16 @@
     "%@" : {
 
     },
+    "Attack: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "攻击: "
+          }
+        }
+      }
+    },
     "Choose Allian" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -21,8 +31,110 @@
         }
       }
     },
+    "Damage: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "伤害: "
+          }
+        }
+      }
+    },
+    "Defence: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "防御: "
+          }
+        }
+      }
+    },
     "Go back" : {
 
+    },
+    "Growth: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "产量: "
+          }
+        }
+      }
+    },
+    "Health: " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生命: "
+          }
+        }
+      }
+    },
+    "Movement: " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移动方式: "
+          }
+        }
+      }
+    },
+    "Price: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "价格: "
+          }
+        }
+      }
+    },
+    "Shots: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弹药: "
+          }
+        }
+      }
+    },
+    "Size: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "体型: "
+          }
+        }
+      }
+    },
+    "Skills: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "特技: "
+          }
+        }
+      }
+    },
+    "Speed: " : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "速度: "
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
