@@ -9,11 +9,10 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 struct CreatureScreen: View {
-    @Environment(\.mainWindowSize) var mainSize: CGSize
+    @Environment(\.shareViewModel) var shareVM
     @Environment(\.router) var router
     @Environment(\.locale) var locale
     
-    private let allianName: String
     @State private var currentIndex: Int = 0
 
     @State private var creatureVM: CreatureViewModelProtocol
@@ -22,37 +21,43 @@ struct CreatureScreen: View {
     @State private var gifs: [String]
 
     init(
-        allianName: String,
         currentCreatureGrade: String = "1",
         creatureVM: CreatureViewModelProtocol = CreatureViewModel()
     ) {
-        self.allianName = allianName
         self.creatureVM = creatureVM
+        
         self.currentCreatureGrade = currentCreatureGrade
         self.gifs = []
     }
     
     var body: some View {
+//        ZStack {
+//            SideMenuView(isShowing: shareVM.isShowingMenu)
+//        }
         BackgroundView {
             VStack {
                 // Header and creature choose
-                ZStack(alignment: .trailing) {
-                    HStack {
-                        Spacer()
-                        
-//                        Text(creatureVM.creatures.first { $0.grade == "\(currentCreatureGrade)-\(currentIndex)" }?.name ?? "")
-//                            .font(.title2)
-//                            .foregroundStyle(.primary)
-//                            .fontWeight(.semibold)
-//                            .padding(.top, 20)
-                        Text(currentCreature?.name ?? "")
-                            .font(.title2)
-                            .foregroundStyle(.primary)
-                            .fontWeight(.semibold)
+                HStack {
+                    Button {
+                        shareVM.isShowingMenu.toggle()
+                    } label: {
+                        Image(systemName: "line.horizontal.3")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 23, height: 20)
+                            .padding(.leading, 30)
                             .padding(.top, 20)
-                        
-                        Spacer()
                     }
+                    
+                    Spacer()
+
+                    Text(currentCreature?.name ?? "")
+                        .font(.title2)
+                        .foregroundStyle(.primary)
+                        .fontWeight(.semibold)
+                        .padding(.top, 20)
+                    
+                    Spacer()
                     
                     Menu {
                         ForEach(creatureVM.creatures.filter({ creature in
@@ -118,7 +123,7 @@ struct CreatureScreen: View {
         }
         .onAppear() {
             Task {
-                await creatureVM.getCreatures(allian: allianName)
+                await creatureVM.getCreatures(allian: shareVM.selectedAllianName ?? "")
                 gifs = creatureVM.getCreatureGifs(grade: currentCreatureGrade)
                 currentCreature = creatureVM.getCurrentCreature(grade: "\(currentCreatureGrade)-\(currentIndex)")
                 print("current creature: \(currentCreature?.name ?? "")")
@@ -130,6 +135,7 @@ struct CreatureScreen: View {
 }
 
 #Preview {
-    CreatureScreen(allianName: "Castle")
+    CreatureScreen()
         .environment(\.locale, .init(identifier: "zh"))
+        .environment(\.shareViewModel, ShareViewModel(selectedAllianName: "Tower"))
 }

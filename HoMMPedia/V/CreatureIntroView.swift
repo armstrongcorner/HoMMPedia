@@ -29,7 +29,7 @@ struct CreatureIntroView: View {
                         .fontWeight(.regular)
                         .frame(width: 170, alignment: .leading)
                 }
-                .padding(.bottom, 5)
+                .padding(.bottom, 10)
             }
             
             // Intro

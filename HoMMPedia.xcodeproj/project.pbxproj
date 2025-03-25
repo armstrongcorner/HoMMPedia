@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2210B6442D39E85800210874 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210B6432D39E85800210874 /* HomeScreen.swift */; };
+		2210B6462D39F06D00210874 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210B6452D39F06D00210874 /* SideMenuView.swift */; };
+		2210B64E2D3B487700210874 /* ShareViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2210B64D2D3B487700210874 /* ShareViewModel.swift */; };
 		221334372D2FB5AA00582A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334312D2FB5AA00582A60 /* Preview Assets.xcassets */; };
 		221334382D2FB5AA00582A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221334332D2FB5AA00582A60 /* Assets.xcassets */; };
 		221334392D2FB5AA00582A60 /* AllianScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221334342D2FB5AA00582A60 /* AllianScreen.swift */; };
@@ -46,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2210B6432D39E85800210874 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2210B6452D39F06D00210874 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		2210B64D2D3B487700210874 /* ShareViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewModel.swift; sourceTree = "<group>"; };
 		221334042D2FB5A000582A60 /* HoMMPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoMMPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221334142D2FB5A200582A60 /* HoMMPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoMMPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2213341E2D2FB5A200582A60 /* HoMMPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoMMPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +184,8 @@
 				2225EC032D31C3A000B21B30 /* CreatureScreen.swift */,
 				2225EC3C2D35F67D00B21B30 /* CreatureAttrView.swift */,
 				2225EC3E2D3667F700B21B30 /* CreatureIntroView.swift */,
+				2210B6432D39E85800210874 /* HomeScreen.swift */,
+				2210B6452D39F06D00210874 /* SideMenuView.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -188,6 +196,7 @@
 				2225EC2D2D34C19100B21B30 /* BaseViewModel.swift */,
 				221334462D2FCAED00582A60 /* AllianViewModel.swift */,
 				2225EC2F2D34D1E900B21B30 /* CreatureViewModel.swift */,
+				2210B64D2D3B487700210874 /* ShareViewModel.swift */,
 			);
 			path = VM;
 			sourceTree = "<group>";
@@ -369,8 +378,10 @@
 			files = (
 				2225EC252D33105B00B21B30 /* GifImageView.swift in Sources */,
 				2225EC2E2D34C19100B21B30 /* BaseViewModel.swift in Sources */,
+				2210B6462D39F06D00210874 /* SideMenuView.swift in Sources */,
 				2225EC3F2D3667F700B21B30 /* CreatureIntroView.swift in Sources */,
 				2213344B2D30D44500582A60 /* BackgroundView.swift in Sources */,
+				2210B64E2D3B487700210874 /* ShareViewModel.swift in Sources */,
 				221334392D2FB5AA00582A60 /* AllianScreen.swift in Sources */,
 				221334472D2FCAED00582A60 /* AllianViewModel.swift in Sources */,
 				2225EC302D34D1E900B21B30 /* CreatureViewModel.swift in Sources */,
@@ -378,6 +389,7 @@
 				2225EC3D2D35F67D00B21B30 /* CreatureAttrView.swift in Sources */,
 				221334492D2FD0BE00582A60 /* AllianModel.swift in Sources */,
 				2213343A2D2FB5AA00582A60 /* HoMMPediaApp.swift in Sources */,
+				2210B6442D39E85800210874 /* HomeScreen.swift in Sources */,
 				2225EC072D325B8B00B21B30 /* CacheKey.swift in Sources */,
 				2225EC2C2D33B77D00B21B30 /* CreatureModel.swift in Sources */,
 				221334442D2FC63300582A60 /* FileService.swift in Sources */,

@@ -15,17 +15,10 @@
       }
     },
     "Choose Allian" : {
-      "extractionState" : "manual",
       "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose Allian"
-          }
-        },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "选择势力"
           }
         }
@@ -86,6 +79,17 @@
         }
       }
     },
+    "Pikeman" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "枪兵"
+          }
+        }
+      }
+    },
     "Price: " : {
       "localizations" : {
         "zh-Hans" : {
@@ -105,6 +109,9 @@
           }
         }
       }
+    },
+    "Side Menu" : {
+
     },
     "Size: " : {
       "localizations" : {

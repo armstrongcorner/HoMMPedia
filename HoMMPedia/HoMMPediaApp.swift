@@ -22,15 +22,23 @@ extension EnvironmentValues {
 @main
 struct HoMMPediaApp: App {
     @AppStorage(CacheKey.currentLanguage.rawValue) var selectedLanguageCode = "zh"
+    @State private var shareVM: ShareViewModelProtocol
+    
+    init() {
+        self.shareVM = ShareViewModel()
+    }
     
     var body: some Scene {
         WindowGroup {
             GeometryReader { proxy in
-                RouterView { _ in
-                    AllianScreen()
-                        .environment(\.mainWindowSize, proxy.size)
-                        .environment(\.locale, .init(identifier: selectedLanguageCode))
-                }
+//                AllianScreen()
+//                    .environment(\.mainWindowSize, proxy.size)
+//                    .environment(\.locale, .init(identifier: selectedLanguageCode))
+//                    .environment(\.shareViewModel, shareVM)
+                HomeScreen()
+                    .environment(\.mainWindowSize, proxy.size)
+                    .environment(\.locale, .init(identifier: selectedLanguageCode))
+                    .environment(\.shareViewModel, shareVM)
             }
         }
     }
